@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 15vw;
+    max-width: 15vw;
+    min-height: 7vw;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 0px;
+    border-radius: 4px;
+    margin: 1rem;
+    padding: .4rem;
+}
+
+.title {
+    margin: 1rem 1rem 0 1rem;
+}
+
+.description {
+    font-weight: normal;
+    margin: 0 1rem;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .4rem .6rem;
+    * {
+        margin: .4rem;
+        background-color: rgb(115, 217, 255);
+        padding: .2rem 1rem;
+        border-radius: 14px;
+    }
+}

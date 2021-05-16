@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+.code {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(193deg, #313960 0%, #11152b 100%);
+    box-shadow: 0 0 0 0 #ffffff;
+    padding: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.indent {
+    text-indent: 1rem;
+    color: rgb(237, 242, 245);
+}
+
+.double_indent {
+    text-indent: 3rem;
+    color: rgb(237, 242, 245);
+}
+
+.bracket {
+    color: #f0db4f
+}
+
+.comment {
+    color: rgb(88, 108, 122)
+}
+
+.object {
+    color: rgb(236, 145, 255)
+}
+
+.text {
+    color: rgb(237, 242, 245)
+}
+
+.value{
+    color: rgb(115, 217, 255)
+}

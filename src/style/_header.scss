@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(42, 42, 42,1);
+    width: 100%;
+    color: white;
+    height: 60px;
+    padding: 0 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    &__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo {  
+        font-family: 'Lobster', cursive;
+        font-size: 2rem;
+        border-right: 1px white solid;
+        padding: 0 2rem;
+        cursor: pointer;
+        transition: all .25s ease;
+        &:hover {
+            color: #f0db4f;
+        }
+    }
+    &__menu{
+        margin-left: 1rem;
+        display: flex;
+    }
+    &__menuItem {
+        margin: 0 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all .25s ease;
+        &:hover {
+            color: #f0db4f;
+        }
+    }
+    &__iconsList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    &__icon{
+        width: 1.7rem;
+        height: 1.7em;
+        color: white;
+        margin: 0 .4rem;
+        transition: all .25s ease;
+        &:hover {
+            color: #f0db4f;
+        }
+    }
+}
