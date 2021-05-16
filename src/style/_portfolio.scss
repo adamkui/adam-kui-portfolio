@@ -1,0 +1,35 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    &__title{
+        margin: 5rem 0 1.5rem 0;
+        font-size: 3rem;
+        z-index: 2;
+        position: relative;
+    }
+    &__description{
+        color: #86868b;
+        margin-bottom: 3rem;
+    }
+    &__projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    &__project{
+        display: flex;
+        background-color: #ffffff;
+        background-image: linear-gradient(315deg, #dddcdc 0%, #eeeeee 74%);
+        box-shadow: rgba(0,0,0, .16) 1px 1px 2px 1px;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+    &__projectTitle{
+        font-size: 1.5rem;
+    }
+}

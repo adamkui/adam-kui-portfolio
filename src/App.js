@@ -1,7 +1,9 @@
 import './style/globals.scss'
+import Header from './components/Header'
 import Intro from './pages/Intro'
 import About from './pages/About'
-import Header from './components/Header'
+import Portfolio from './pages/Portfolio'
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Intro />
       <Header />
       <About />
+      <Portfolio />
     </div>
   );
 }

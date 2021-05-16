@@ -10,10 +10,10 @@ export default function Header() {
                 <div className='header__menu'>
                         <li className='header__menuItem' onClick={() => scroll.scrollToTop({duration: 400})}>Home</li>
                         <li className='header__menuItem'>
-                            <Link to='about' smooth={true} duration={400}>About</Link>
+                            <Link to='about' smooth={true} duration={400} offset={-60}>About</Link>
                         </li>
                         <li className='header__menuItem'>
-                            <Link to='portfolio' smooth={true} duration={400}>Portfolio</Link>
+                            <Link to='portfolio' smooth={true} duration={400} offset={-60}>Projects</Link>
                         </li>
                     </div>
             </div>
@@ -21,17 +21,17 @@ export default function Header() {
             <nav>
                 <ul className='header__iconsList'>
                     <li>
-                        <a href='https://github.com/adamkui' target='_blank'>
+                        <a href='https://github.com/adamkui' target='_blank' rel="noreferrer">
                             <FaGithub className='header__icon' />
                         </a> 
                     </li>
                     <li>
-                        <a href='https://www.facebook.com/addam.kui/' target='_blank'>
+                        <a href='https://www.facebook.com/addam.kui/' target='_blank' rel="noreferrer">
                             <FaFacebook className='header__icon' />
                         </a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/adamkui/' target='_blank'>
+                        <a href='https://www.linkedin.com/in/adamkui/' target='_blank' rel="noreferrer">
                             <GrLinkedin className='header__icon' />
                         </a>
                     </li>

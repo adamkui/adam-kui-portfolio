@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Portfolio website for Márton Izsáki",
+        "description": "will be added later",
+        "tags": ["javascript"]
+    },
+    {
+        "title": "Covid Dashboard",
+        "description": "will be added later",
+        "tags": ["react", "redux"]
+    }
+]
