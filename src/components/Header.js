@@ -15,6 +15,9 @@ export default function Header() {
                         <li className='header__menuItem'>
                             <Link to='portfolio' smooth={true} duration={400} offset={-60}>Projects</Link>
                         </li>
+                        <li className='header__menuItem'>
+                            <Link to='contact' smooth={true} duration={400} offset={-60}>Contact</Link>
+                        </li>
                     </div>
             </div>
 

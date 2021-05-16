@@ -9,7 +9,14 @@ export default function Portfolio() {
             <p className='portfolio__description'>Take a look at some of the projects I worked on as my own ideas and during completing learning courses.</p>
             <div className='portfolio__projects'>
                 {projects.map(p => (
-                    <PortfolioItem title={p.title} description={p.description} tags={p.tags} key={p.title} />
+                    <PortfolioItem 
+                        title={p.title}
+                        description={p.description}
+                        tags={p.tags}
+                        key={p.title}
+                        url={p.url}
+                        img={p.img}
+                    />
                 ))}
             </div>
         </div>

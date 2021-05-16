@@ -1,0 +1,43 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    background: rgb(233, 231, 231);
+    width: 100%;
+    min-height: 650px;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        font-size: 3rem;
+        z-index: 2;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+    }
+    &__formLabel{
+        font-size: 1rem;
+        margin: 1rem 0 .25rem 0;
+        align-self: flex-start;
+    }
+    &__formInput{
+        width: 100%;
+        padding: .25rem;
+    }
+    &__textarea{
+        resize: none;
+        width: 100%;
+        height: 150px;
+    }
+    &__formSubmit{
+        margin-top: 1rem;
+        width: fit-content;
+        padding: .5rem 1.25rem;
+        border: 2px solid black;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}

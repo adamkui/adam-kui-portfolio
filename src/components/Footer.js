@@ -1,15 +1,15 @@
-import styles from '@/styles/Footer.module.scss'
-import Link from 'next/link'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 export default function Footer() {
     return (
-        <footer className={styles.footer}>
+        <footer className='footer'>
             <p>© 2021 Adam Kui</p>
             <nav>
-                <ul className={styles.pages}>
-                    <li className={styles.li}><Link href="/">Home</Link></li>
-                    <li className={styles.li}><Link href="/portfolio">Portfolio</Link></li>
-                    <li className={styles.li}><Link href="/about">About</Link></li>
+                <ul className='footer__pages'>
+                    <li className='footer__pageItem' onClick={() => scroll.scrollToTop({duration: 400})}>Home</li>
+                    <li className='footer__pageItem'><Link to='about' smooth={true} duration={400} offset={-60}>About</Link></li>
+                    <li className='footer__pageItem'><Link to='portfolio' smooth={true} duration={400} offset={-60}>Projects</Link></li>
+                    <li className='footer__pageItem'><Link to='contact' smooth={true} duration={400} offset={-60}>Contact</Link></li>
                 </ul>
             </nav>
         </footer>

@@ -15,21 +15,47 @@
         margin-bottom: 3rem;
     }
     &__projects{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(35rem, 1fr));
+        width: 85%;
     }
     &__project{
         display: flex;
+        flex-direction: column;
         background-color: #ffffff;
         background-image: linear-gradient(315deg, #dddcdc 0%, #eeeeee 74%);
         box-shadow: rgba(0,0,0, .16) 1px 1px 2px 1px;
         padding: 2rem;
         border-radius: 10px;
+        margin: 2.5rem;
+        min-width: 35rem;
+    }
+    &__projectThumbnail{
+        display: block;
+        height: 250px;
+        background: #fff;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+        object-fit: cover;
+        box-shadow: rgba(0,0,0, .16) 1px 1px 2px 1px;
     }
     &__projectTitle{
         font-size: 1.5rem;
+        font-weight: bold;
+    }
+    &__projectDescription{
+        color: #86868b
+    }
+    &__projectTagsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1.5rem;
+    }
+    &__projectTag{
+        background: #f0db4f;
+        width: fit-content;
+        padding: .4rem 1.5rem;
+        border-radius: 25px;
+        margin:  0 .5rem .5rem 0;
     }
 }

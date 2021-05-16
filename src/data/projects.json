@@ -1,12 +1,44 @@
 [
     {
+        "title": "Portfolio website for DecentEye Productions",
+        "description": "Under development...",
+        "tags": ["HTML5", "Sass", "JavaScript", "React"],
+        "url": "#",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194574/portfolio/asd_hdrtyj.jpg"
+    },
+    {
         "title": "Portfolio website for Márton Izsáki",
         "description": "will be added later",
-        "tags": ["javascript"]
+        "tags": ["HTML5", "Sass", "JavaScript", "Formspree"],
+        "url": "https://izsakimarton.hu",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194455/portfolio/izsakimarton_portfolio_1_ofrbvi.jpg"
     },
     {
         "title": "Covid Dashboard",
         "description": "will be added later",
-        "tags": ["react", "redux"]
+        "tags": ["HTML5", "Sass", "JavaScript", "React", "Redux"],
+        "url": "https://global-covid-dashboard.netlify.app",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194689/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_215101_xgmuhu.jpg"
+    },
+    {
+        "title": "Notes Application",
+        "description": "will be added later",
+        "tags": ["HTML5", "Sass", "JavaScript", "React", "Redux"],
+        "url": "https://global-covid-dashboard.netlify.app",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194881/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_215424_fd51dn.jpg"
+    },
+    {
+        "title": "React Music Player",
+        "description": "will be added later",
+        "tags": ["HTML5", "Sass", "JavaScript", "React"],
+        "url": "https://ak-react-music-player.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621195062/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_215725_atroua.jpg"
+    },
+    {
+        "title": "React 'Capture' Website",
+        "description": "will be added later",
+        "tags": ["HTML5", "Sass", "JavaScript", "React"],
+        "url": "https://ak-react-course-portfolio.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621195360/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_220211_qckg1j.jpg"
     }
 ]
