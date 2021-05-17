@@ -12,6 +12,7 @@ html, body {
 }
 
 body {
+  min-width: 330px;
   background-color: #fff;
   &::-webkit-scrollbar {
     width: 0.5rem;
@@ -58,3 +59,9 @@ select:-webkit-autofill:focus {
 @import 'portfolio';
 @import 'contact';
 @import 'footer';
+
+@media screen and (max-width: 900px) {
+  * {
+    font-size: 70%;
+  }
+}

@@ -20,11 +20,13 @@
     }
     &__logo {  
         font-family: 'Lobster', cursive;
-        font-size: 2rem;
         border-right: 1px white solid;
-        padding: 0 2rem;
+        padding: 0 2rem 0 1rem;
         cursor: pointer;
         transition: all .25s ease;
+        p {
+            font-size: 2rem;
+        }
         &:hover {
             color: #f0db4f;
         }
@@ -34,12 +36,16 @@
         display: flex;
     }
     &__menuItem {
+        font-size: 1rem;
         margin: 0 1rem;
         font-weight: 600;
         cursor: pointer;
         transition: all .25s ease;
         &:hover {
             color: #f0db4f;
+        }
+        a {
+            font-size: 1rem;
         }
     }
     &__iconsList {
@@ -54,8 +60,35 @@
         color: white;
         margin: 0 .4rem;
         transition: all .25s ease;
+        font-size: 1rem;
         &:hover {
             color: #f0db4f;
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header{
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .header{
+        &__logo{
+            display: none;
+        }
+        &__menuItem {
+            margin: 0 .5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .header{
+        padding: 0;
+        &__iconsList{
+            display: none;
         }
     }
 }

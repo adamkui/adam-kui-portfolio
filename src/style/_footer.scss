@@ -4,9 +4,13 @@
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-    padding: 0 20rem;
+    padding: 0 15rem;
     position: relative;
     color: white;
+    transition: all .4s ease;
+    p {
+        font-size: 1rem;
+    }
     &__circle{
         position: absolute;
         top: 0;
@@ -32,8 +36,31 @@
         margin: 0 1rem;
         cursor: pointer;
         transition: all .25s ease;
+        font-size: 1rem;
         &:hover{
             color: #f0db4f;
+        }
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1440px) {
+    .footer {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 780px) {
+    .footer {
+        padding: 4rem 5rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .footer {
+        justify-content: center;
+        padding: 4rem 5rem;
+        &__pages{
+            display: none;
         }
     }
 }

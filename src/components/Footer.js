@@ -9,9 +9,9 @@ export default function Footer() {
             <nav>
                 <ul className='footer__pages'>
                     <li className='footer__pageItem' onClick={() => scroll.scrollToTop({duration: 400})}>Home</li>
-                    <li className='footer__pageItem'><Link to='about' smooth={true} duration={400} offset={-60}>About</Link></li>
-                    <li className='footer__pageItem'><Link to='portfolio' smooth={true} duration={400} offset={-60}>Projects</Link></li>
-                    <li className='footer__pageItem'><Link to='contact' smooth={true} duration={400} offset={-60}>Contact</Link></li>
+                    <Link to='about' smooth={true} duration={400} offset={-60} className='footer__pageItem' >About</Link>
+                    <Link to='portfolio' smooth={true} duration={400} offset={-60} className='footer__pageItem' >Projects</Link>
+                    <Link to='contact' smooth={true} duration={400} offset={-60} className='footer__pageItem' >Contact</Link>
                 </ul>
             </nav>
         </footer>
