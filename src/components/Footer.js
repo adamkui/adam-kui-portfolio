@@ -1,8 +1,10 @@
 import { Link, animateScroll as scroll } from 'react-scroll'
+import { IoIosArrowDropup } from 'react-icons/io'
 
 export default function Footer() {
     return (
         <footer className='footer'>
+            <IoIosArrowDropup className='footer__circle' onClick={() => scroll.scrollToTop({duration: 400})} />
             <p>© 2021 Adam Kui</p>
             <nav>
                 <ul className='footer__pages'>

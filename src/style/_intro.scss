@@ -27,16 +27,18 @@
         border: 2px solid white;
         color: white;
         margin-top: 1rem;
-        transition: all .25s ease;
+        transition: all .4s ease;
         position: relative;
         &:hover {
             background: rgba(255,255,255,.2);
             cursor: pointer;
             color: transparent;
+            border: 2px solid #f0db4f;
             &::after {
                 right: 50%;
                 transform: translate(50%);
                 opacity: 1;
+                color: #f0db4f;
             }
         }
         &::after {
