@@ -8,7 +8,7 @@ export default function AboutMe() {
     const [element, controls] = useScroll();
 
     return (
-        <motion.div className='firstcontainer' animate={controls} initial='hidden'  ref={element}>
+        <motion.div className='firstcontainer' animate={controls} initial='hidden' ref={element}>
             <motion.h1 className='firstcontainer__title' variants={titleAnim}>About Me</motion.h1>
             <motion.h4 className='firstcontainer__subtitle' variants={subTitleAnim} >Hello World!</motion.h4>
             <motion.p className='firstcontainer__description' variants={fadeIn}>

@@ -1,13 +1,17 @@
 import projects from '../data/projects.json'
 import PortfolioItem from '../components/PortfolioItem'
+import { motion } from "framer-motion"
+import { titleAnimRight, fadeInList, fadeIn } from '../animation';
+import { useScroll } from '../components/useScroll';
 
 export default function Portfolio() {
+    const [element, controls] = useScroll(0.4);
     
     return (
-        <div className='portfolio' id='portfolio'>
-            <h1 className='portfolio__title'>Projects</h1>
-            <p className='portfolio__description'>Take a look at some of the projects I worked on as my own ideas and during completing learning courses.</p>
-            <div className='portfolio__projects'>
+        <motion.div className='portfolio' id='portfolio' animate={controls} initial='hidden' ref={element}>
+            <motion.h1 className='portfolio__title' variants={titleAnimRight}>Projects</motion.h1>
+            <motion.p className='portfolio__description' variants={fadeIn}>Take a look at some of the projects I worked on as my own ideas and during completing learning courses.</motion.p>
+            <motion.div className='portfolio__projects' variants={fadeInList}>
                 {projects.map(p => (
                     <PortfolioItem 
                         title={p.title}
@@ -18,7 +22,7 @@ export default function Portfolio() {
                         img={p.img}
                     />
                 ))}
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     )
 }

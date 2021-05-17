@@ -1,16 +1,21 @@
 import ExperienceItem from './ExperienceItem'
 import experience from '../data/experience.json'
+import { motion } from "framer-motion"
+import { fadeInList, delayedTitleAnim } from '../animation';
+import { useScroll } from './useScroll';
 
 export default function Experience() {
+    const [element, controls] = useScroll();
+
     return (
-        <div className='secContainer'>
-            <h1 className='secContainer__title'>Experience</h1>
-            <ul className='secContainer__expList'>
+        <motion.div className='secContainer' animate={controls} initial='hidden' ref={element}>
+            <motion.h1 className='secContainer__title' variants={delayedTitleAnim}>Experience</motion.h1>
+            <motion.ul className='secContainer__expList' variants={fadeInList}>
                 {experience.map(x => (
-                    <li className='secContainer__expListItem' key={x.title}><ExperienceItem title={x.title} desc={x.desc} logo={x.logo} key={x.title}/></li>
+                    <ExperienceItem key={x.title} title={x.title} desc={x.desc} logo={x.logo} key={x.title} />
                 ))}
-            </ul>
-        </div>
+            </motion.ul>
+        </motion.div>
     )
 }
 

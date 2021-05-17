@@ -1,6 +1,8 @@
 import {FaReact, FaCss3Alt, FaHtml5} from 'react-icons/fa'
 import {SiJavascript, SiSass, SiNextDotJs, SiTypescript} from 'react-icons/si'
 import {RiGitRepositoryCommitsFill} from 'react-icons/ri'
+import { motion } from "framer-motion"
+import { fadeInListItem } from '../animation';
 
 export default function ExperienceItem({title, desc, logo}) {
     const switchLogo = (logo) => {
@@ -18,10 +20,10 @@ export default function ExperienceItem({title, desc, logo}) {
     }
 
     return (
-        <div className='secContainer__expItem'>
+        <motion.div className='secContainer__expItem' variants={fadeInListItem}>
             <div>{ switchLogo(logo) }</div>
             <h1 className='secContainer__expItemTitle'>{title}</h1>
             <p className='secContainer__description'>{desc}</p>
-        </div>
+        </motion.div>
     )
 }
