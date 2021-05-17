@@ -3,9 +3,11 @@ import experience from '../data/experience.json'
 import { motion } from "framer-motion"
 import { fadeInList, delayedTitleAnim } from '../animation';
 import { useScroll } from './useScroll';
+import { useMediaQuery } from 'react-responsive';
 
 export default function Experience() {
-    const [element, controls] = useScroll();
+    const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
+    const [element, controls] = useScroll(isMobile ? 0.1 : 0.5);
 
     return (
         <motion.div className='secContainer' animate={controls} initial='hidden' ref={element}>

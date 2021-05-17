@@ -3,9 +3,11 @@ import PortfolioItem from '../components/PortfolioItem'
 import { motion } from "framer-motion"
 import { titleAnimRight, fadeInList, fadeIn } from '../animation';
 import { useScroll } from '../components/useScroll';
+import { useMediaQuery } from 'react-responsive';
 
 export default function Portfolio() {
-    const [element, controls] = useScroll(0.4);
+    const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
+    const [element, controls] = useScroll(isMobile ? 0.1 : 0.4);
     
     return (
         <motion.div className='portfolio' id='portfolio' animate={controls} initial='hidden' ref={element}>
