@@ -1,4 +1,4 @@
-import {FaReact, FaHtml5, FaRProject} from 'react-icons/fa'
+import {FaReact, FaHtml5} from 'react-icons/fa'
 import {HiCode} from 'react-icons/hi'
 import { motion } from "framer-motion"
 import { titleAnim, subTitleAnim, fadeIn, zoomOut } from '../animation';

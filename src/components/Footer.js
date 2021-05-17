@@ -1,7 +1,7 @@
 import { Link, animateScroll as scroll } from 'react-scroll'
 import { IoIosArrowDropup } from 'react-icons/io'
 import { motion } from "framer-motion"
-import { titleAnim, swimInRight, swimInUp } from '../animation';
+import { titleAnim, swimInRight } from '../animation';
 import { useScroll } from './useScroll';
 
 export default function Footer() {

@@ -12,7 +12,7 @@ export default function Experience() {
             <motion.h1 className='secContainer__title' variants={delayedTitleAnim}>Experience</motion.h1>
             <motion.ul className='secContainer__expList' variants={fadeInList}>
                 {experience.map(x => (
-                    <ExperienceItem key={x.title} title={x.title} desc={x.desc} logo={x.logo} key={x.title} />
+                    <ExperienceItem key={x.title} title={x.title} desc={x.desc} logo={x.logo} />
                 ))}
             </motion.ul>
         </motion.div>
