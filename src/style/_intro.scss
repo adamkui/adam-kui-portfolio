@@ -15,6 +15,7 @@
         font-size: 3rem;
         font-weight: normal;
         width: 90%;
+        opacity: 0;
         &--yellow{
             color: #f0db4f;
             font-size: 3rem;
@@ -31,6 +32,7 @@
         margin-top: 1rem;
         transition: all .4s ease;
         position: relative;
+        opacity: 1;
         &:hover {
             background: rgba(255,255,255,.2);
             cursor: pointer;
