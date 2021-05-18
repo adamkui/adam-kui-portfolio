@@ -150,7 +150,7 @@
         position: relative;
     }
     &__description{
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         text-align: center;
         color: rgb(134, 134, 139);
         z-index: 2;
@@ -180,6 +180,7 @@
     }
     &__expItemTitle{
         font-size: 1.5rem;
+        margin-top: 1rem;
     }
     &__expItemLogo {
         font-size: 5rem;

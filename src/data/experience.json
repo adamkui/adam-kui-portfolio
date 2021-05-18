@@ -1,42 +1,42 @@
 [
     {
         "title": "HTML5",
-        "desc": "HTML is the markup language of websites, pretty much the basics of everything. That's why I started learning web development with HTML5.",
+        "desc": "I have experience with a big variaty of HTML elements, tags, forms and different media elements",
         "logo": "html"
     },
     {
         "title": "CSS3",
-        "desc": "CSS makes a huge difference on websites. I learnt lots of CSS, however without a preprocessor I found it's a little bit messy, and too much manual work.",
+        "desc": "I'm familiar with most CSS properties, selectors, functions, flexbox and grid usage and creating responsive elements",
         "logo": "css"
     },
     {
         "title": "Sass",
-        "desc": "After trying some CSS pre-processors I found Sass to be my favorite, and I'm using it in almost all of my projects since then.",
+        "desc": "After trying a few CSS pre-processors I found Sass to be my favorite, and I'm using it in all of my projects since then",
         "logo": "sass"
     },
     {
         "title": "JavaScript",
-        "desc": "I spent my first months of learning web-development with understanding how modern JavaScript (ES6+) works.",
+        "desc": "I spent my first months of learning web-development with understanding how modern JavaScript, async functions, and how modern JS (ES6+) works",
         "logo": "javascript"
     },
     {
         "title": "TypeScript",
-        "desc": "I'm not a big fan of TS but I see it's advantages, and I believe that as a junior web developer it is important to understand the basics of it.",
+        "desc": "Even though I don't use TypeScript often in my projects, I'm familiar with the basics of how to create a TS/TSX app",
         "logo": "typescript"
     },
     {
         "title": "React",
-        "desc": "React and JSX was a little strange to learn after months of coding in simple JavaScript. But since I understood how it works I can't praise and use it enough.",
+        "desc": "After months of coding in pure JS, I started to learn React, which I fell in love with. I'm familiar with all core concepts, webhooks, Redux and worked with many libraries",
         "logo": "react"
     },
     {
         "title": "Next.JS",
-        "desc": "I'm still relatively new to Next.JS and SSR, but I really enjoy using it so far as it makes development easier, and my products faster.",
+        "desc": "I'm relatively new to Next.JS and SSR, but I already see lots of benefits of using it, and can't wait to continue learning",
         "logo": "next"
     },
     {
         "title": "SCM",
-        "desc": "I used Git, TFVS and SVN during my career. My favourites are definitely git based repositories.",
+        "desc": "For version control I used Git, TFVS and SVN during my career and while working on my own projects",
         "logo": "repo"
     }
 ]
