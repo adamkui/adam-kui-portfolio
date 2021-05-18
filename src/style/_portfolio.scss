@@ -35,6 +35,7 @@
         margin: 2.5rem;
         width: 37.5rem;
         transition: all .4s ease;
+        position: relative;
     }
     &__projectThumbnail{
         display: block;
@@ -67,6 +68,40 @@
         margin:  0 .5rem .5rem 0;
         font-size: 1rem;
     }
+    &__btnsContainer{
+        display: flex;
+        margin-top: 1.25rem;
+    }
+    &__btn{
+        padding: .5rem 1.25rem;
+        margin-right: 1rem;
+        border: 2px solid;
+        font-weight: bold;
+        border-radius: 6px;
+        overflow: hidden;
+        color: white;
+    }
+    &__viewBtn{
+        background: rgb(55, 62, 71);
+        border: 2px solid rgb(68, 76, 86);
+        font-size: 1rem;
+        display: flex;
+    }
+    &__gitBtn{
+        background: rgb(33, 38, 45);
+        border: 2px solid rgb(48, 54, 61);
+        font-size: 1rem;
+        display: flex;
+    } 
+    &__gitIcon {
+        font-size: 1.2rem;
+        margin-left : .75rem;
+    }
+    &__viewIcon{
+        font-size: 1.2rem;
+        margin-left : .75rem;
+        
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -85,6 +120,18 @@
             margin-bottom: 1.5rem;
             object-fit: cover;
             box-shadow: rgba(0,0,0, .16) 1px 1px 2px 1px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .portfolio{
+        &__btnsContainer{
+            flex-direction: column;
+        }
+        &__btn{
+            margin: .5rem 0;
+            width: fit-content;
         }
     }
 }

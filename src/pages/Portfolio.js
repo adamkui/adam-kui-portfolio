@@ -1,7 +1,7 @@
 import projects from '../data/projects.json'
 import PortfolioItem from '../components/PortfolioItem'
 import { motion } from "framer-motion"
-import { titleAnimRight, fadeInList, fadeIn, fadeInListNoDelay } from '../animation';
+import { titleAnimRight, fadeIn, fadeInListNoDelay } from '../animation';
 import { useScroll } from '../components/useScroll';
 import { useMediaQuery } from 'react-responsive';
 
@@ -22,6 +22,7 @@ export default function Portfolio() {
                         key={p.title}
                         url={p.url}
                         img={p.img}
+                        gitRepo={p.gitRepo}
                     />
                 ))}
             </motion.div>

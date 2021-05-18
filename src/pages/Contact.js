@@ -2,7 +2,7 @@ import { useForm } from '@formspree/react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { motion } from "framer-motion"
-import { titleAnim, fadeInList, fadeIn, swimInRight, fadeInListNoDelay } from '../animation';
+import { titleAnim, fadeIn, swimInRight, fadeInListNoDelay } from '../animation';
 import { useScroll } from '../components/useScroll';
 
 export default function Contact() {
