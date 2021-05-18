@@ -7,7 +7,7 @@ import { useMediaQuery } from 'react-responsive';
 
 export default function Portfolio() {
     const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
-    const [element, controls] = useScroll(isMobile ? 0.1 : 0.4);
+    const [element, controls] = useScroll(isMobile ? 0.1 : 0.2);
     
     return (
         <motion.div className='portfolio' id='portfolio' animate={controls} initial='hidden' ref={element}>

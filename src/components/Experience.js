@@ -7,7 +7,7 @@ import { useMediaQuery } from 'react-responsive';
 
 export default function Experience() {
     const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
-    const [element, controls] = useScroll(isMobile ? 0.1 : 0.5);
+    const [element, controls] = useScroll(isMobile ? 0.1 : 0.3);
 
     return (
         <motion.div className='secContainer' animate={controls} initial='hidden' ref={element}>
