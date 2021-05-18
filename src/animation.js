@@ -111,6 +111,19 @@ export const fadeInList = {
     }
 }
 
+export const fadeInListNoDelay = {
+    hidden: {opacity: 0},
+    show: {
+        opacity: 1,
+        transition: {
+            delay: 0,
+            duration: 0.75,
+            ease: "easeOut",
+            staggerChildren: 0.15
+        }
+    }
+}
+
 export const fadeInListLong = {
     hidden: {opacity: 0},
     show: {
@@ -130,7 +143,19 @@ export const fadeInListItem = {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 0.75,
+            duration: 0.5,
+            ease: "easeOut",
+        }
+    }
+}
+
+export const fadeInListItemShort = {
+    hidden: {opacity: 0, y: -120},
+    show: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 0.15,
             ease: "easeOut",
         }
     }
