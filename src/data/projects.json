@@ -1,44 +1,100 @@
 [
     {
-        "title": "Portfolio website for DecentEye Productions",
-        "description": "Under development...",
-        "tags": ["HTML5", "Sass", "JavaScript", "React"],
-        "url": "#",
-        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194574/portfolio/asd_hdrtyj.jpg"
+        "title": "Covid Dashboard",
+        "description": "A project aiming to provide Covid-19 related statistics, an interactive map, charts and news. The project was built in React using Redux for state management. The data is pulled from two REST API services.",
+        "tags": ["HTML5", "Sass", "JavaScript", "React", "Redux", "REST API", "Framer Motion", "ChartJS"],
+        "url": "https://global-covid-dashboard.netlify.app",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194689/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_215101_xgmuhu.jpg"
     },
     {
-        "title": "Portfolio website for Márton Izsáki",
-        "description": "will be added later",
+        "title": "Notes App",
+        "description": "I developed this project after completing my first React online course. The idea behind the project was to practise React core concepts while developing a simple web application with minimalistic UI. Notes are stored in the browser's Local Storage.",
+        "tags": ["HTML5", "Sass", "JavaScript", "React"],
+        "url": "https://notesapphu.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194881/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_215424_fd51dn.jpg"
+    },
+    {
+        "title": "Márton Izsáki's Portfolio Website",
+        "description": "This graphic designer portfolio website was developed without any JavaScript frameworks, it displays the work of the owner in a section that can be filtered by categories. A contact option was integrated to the website using Formspree.",
         "tags": ["HTML5", "Sass", "JavaScript", "Formspree"],
         "url": "https://izsakimarton.hu",
         "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194455/portfolio/izsakimarton_portfolio_1_ofrbvi.jpg"
     },
     {
-        "title": "Covid Dashboard",
-        "description": "will be added later",
-        "tags": ["HTML5", "Sass", "JavaScript", "React", "Redux"],
-        "url": "https://global-covid-dashboard.netlify.app",
-        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194689/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_215101_xgmuhu.jpg"
+        "title": "Capture Website",
+        "description": "My second React app, that was part of an online course, focusing more on UI & UX, using Framer Motion was animations and page transitions.",
+        "tags": ["HTML5", "JavaScript", "React", "Styled Components", "Framer Motion"],
+        "url": "https://ak-react-course-portfolio.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621195360/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_220211_qckg1j.jpg"
     },
     {
-        "title": "Notes Application",
-        "description": "will be added later",
-        "tags": ["HTML5", "Sass", "JavaScript", "React", "Redux"],
-        "url": "https://global-covid-dashboard.netlify.app",
-        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194881/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_215424_fd51dn.jpg"
+        "title": "Ignite Website",
+        "description": "To be added",
+        "tags": ["HTML5", "JavaScript", "React", "Styled Components", "Framer Motion"],
+        "url": "https://ak-react-course-ignite.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621332750/ignite_uddqzc.jpg"
     },
     {
-        "title": "React Music Player",
-        "description": "will be added later",
+        "title": "Music Player",
+        "description": "This React music player app was developed as part of an online course, being the first app I developed in a JavaScript framework.",
         "tags": ["HTML5", "Sass", "JavaScript", "React"],
         "url": "https://ak-react-music-player.netlify.app/",
         "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621195062/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_215725_atroua.jpg"
     },
     {
-        "title": "React 'Capture' Website",
-        "description": "will be added later",
-        "tags": ["HTML5", "Sass", "JavaScript", "React"],
-        "url": "https://ak-react-course-portfolio.netlify.app/",
-        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621195360/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-16_220211_qckg1j.jpg"
+        "title": "Beatmaker App",
+        "description": "To be added",
+        "tags": ["HTML5", "CSS", "JavaScript"],
+        "url": "https://beatmaker-ak.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621333043/beatmakes_kigych.jpg"
+    },
+    {
+        "title": "Days Website Website",
+        "description": "To be added",
+        "tags": ["HTML5", "CSS", "JavaScript"],
+        "url": "https://days-ws.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621333457/days_dyqaaw.jpg"
+    },
+    {
+        "title": "Colors App",
+        "description": "To be added",
+        "tags": ["HTML5", "CSS", "JavaScript"],
+        "url": "https://colors-page.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621333270/colors_tdfkcw.jpg"
+    },
+    {
+        "title": "Photon Website",
+        "description": "To be added",
+        "tags": ["HTML5", "CSS", "JavaScript"],
+        "url": "https://photon-project-ak.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621333924/photon_r1sjca.jpg"
+    },
+    {
+        "title": "To Do List App",
+        "description": "To be added",
+        "tags": ["HTML5", "CSS", "JavaScript"],
+        "url": "https://todolist-ak.netlify.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621334106/todo_qjnlrv.jpg"
+    },
+    {
+        "title": "DJ Events",
+        "description": "Coming soon...",
+        "tags": ["HTML5", "CSS", "JavaScript", "React", "Next.JS", "SSR", "Cloudinary", "Strapi"],
+        "url": "#",
+        "img": ""
+    },
+    {
+        "title": "DecentEye Productions website",
+        "description": "Coming soon...",
+        "tags": ["HTML5", "Sass", "JavaScript", "React", "Redux", "Sass", "Framer Motion"],
+        "url": "#",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621194574/portfolio/asd_hdrtyj.jpg"
+    },
+    {
+        "title": "Adam Kui's Portfolio Website (this website)",
+        "description": "To be added",
+        "tags": ["HTML5", "Sass", "JavaScript", "React", "Framer Motion", "Formspree", "React Scroll", "Toastify"],
+        "url": "www.adamkui.hu",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621334608/akportfolio_ymcdcp.jpg"
     }
 ]
