@@ -6,7 +6,7 @@ import { titleAnim, fadeIn, swimInRight, fadeInListNoDelay } from '../animation'
 import { useScroll } from '../components/useScroll';
 
 export default function Contact() {
-    const [state, handleSubmit] = useForm("xrgrpaqn");
+    const [state, handleSubmit] = useForm(process.env.REACT_APP_FORMSPREE_ID);
     const [element, controls] = useScroll();
 
     const sendRequest = (e) => {
@@ -18,7 +18,7 @@ export default function Contact() {
         if (err.length) {
             toast.error(`The following fields are mandatory: ${err.join(", ", err)}`)
         } else {
-            handleSubmit(e);
+            handleSubmit(e); //Formspree
             toast.success('✅ Your message was sent successfully!', {
                 position: "top-center",
                 autoClose: 5000,
@@ -28,6 +28,11 @@ export default function Contact() {
                 draggable: true,
                 progress: undefined
             });
+            //Clear input and textarea values
+            document.getElementById('fullname').value = "";
+            document.getElementById('email').value = "";
+            document.getElementById('tel').value = "";
+            document.getElementById('message').value = "";
         }
     }
 
