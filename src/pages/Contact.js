@@ -2,7 +2,7 @@ import { useForm } from '@formspree/react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { motion } from "framer-motion"
-import { titleAnim, fadeInList, fadeIn, swimInRight } from '../animation';
+import { titleAnim, fadeInList, fadeIn, swimInRight, fadeInListNoDelay } from '../animation';
 import { useScroll } from '../components/useScroll';
 
 export default function Contact() {
@@ -46,7 +46,7 @@ export default function Contact() {
                 draggable
                 pauseOnHover
             />
-            <motion.form onSubmit={(event) => sendRequest(event)} className='contact__form' variants={fadeInList}>
+            <motion.form onSubmit={(event) => sendRequest(event)} className='contact__form' variants={fadeInListNoDelay}>
                 <motion.input type="text" name="fullname" id="fullname" className='contact__formInput' placeholder="Name*" variants={swimInRight} />
                 <motion.input id="email" type="email" name="email" className='contact__formInput' placeholder="Email address*" variants={swimInRight} />
                 <motion.input id="tel" type="tel" name="tel" className='contact__formInput' placeholder="Telephone" variants={swimInRight} />
