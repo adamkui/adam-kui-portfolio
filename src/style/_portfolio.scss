@@ -92,7 +92,7 @@
             content: '';
             position: absolute;
             height: 300px;
-            width: 50px;
+            width: 60px;
             background: rgba(255,255,255,.35);
             transform: rotate(35deg) translateY(-100px) translateX(-160px);
             transition: all 0s ease;
@@ -101,7 +101,7 @@
             &::before{
                 transform: rotate(35deg) translateY(-100px) translateX(160px);
                 opacity: 1;
-                transition: all .6s ease;
+                transition: all .7s ease;
             }
         }
     }
