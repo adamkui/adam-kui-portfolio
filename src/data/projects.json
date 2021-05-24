@@ -24,6 +24,14 @@
         "gitRepo": ""
     },
     {
+        "title": "DJ Events",
+        "description": "This project is focusing on server side rendering and Next.JS basics instead of UI. The website has a backend Strapi server running on Heroku, which provides user authentication, and content management.",
+        "tags": ["HTML5", "CSS", "JavaScript", "React", "Next.JS", "SSR", "Strapi", "Cloudinary"],
+        "url": "https://ak-djevents.vercel.app/",
+        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621884096/portfolio/K%C3%A9perny%C5%91k%C3%A9p_2021-05-24_212021_hpgw91.jpg",
+        "gitRepo": "https://github.com/adamkui/dj-events-frontend"
+    },
+    {
         "title": "Capture Website",
         "description": "This is the second app I developed using React, as part of an online course. The project is focusing on UI & UX, using Framer Motion for animations and page transitions.",
         "tags": ["HTML5", "JavaScript", "React", "Styled Components", "Framer Motion"],
@@ -86,14 +94,6 @@
         "url": "https://todolist-ak.netlify.app/",
         "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621334106/todo_qjnlrv.jpg",
         "gitRepo": "https://github.com/adamkui/to-do-list"
-    },
-    {
-        "title": "DJ Events",
-        "description": "Coming soon...",
-        "tags": ["HTML5", "CSS", "JavaScript", "React", "Next.JS", "SSR", "Cloudinary", "Strapi"],
-        "url": "#",
-        "img": "https://res.cloudinary.com/disyx1lwa/image/upload/v1621360056/djevents_aym5bp.jpg",
-        "gitRepo": ""
     },
     {
         "title": "DecentEye Productions website",
